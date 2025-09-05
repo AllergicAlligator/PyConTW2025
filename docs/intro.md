@@ -1,12 +1,12 @@
 # Intro to MkDocs
 
-## 1️⃣ What is MkDocs?
+## 1️⃣ What is [MkDocs](https://www.mkdocs.org/)?
 
 * MkDocs is a static site generator!
 * MkDocs is written in Python!
 * MkDocs converts .md to .html
 
-## 2️⃣ What is Material for MkDocs?
+## 2️⃣ What is [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)?
 
 * Material for MkDocs is a popular theme for MkDocs!
 * Material for MkDocs provides cool features out of box!
