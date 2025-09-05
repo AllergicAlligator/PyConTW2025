@@ -33,6 +33,13 @@ with open("mkdocs.yml", "w", encoding="utf-8") as f:
 * [https://ollama.com/](https://ollama.com/)
 * [https://github.com/ollama/ollama-python](https://github.com/ollama/ollama-python)
 
+```mermaid
+flowchart LR
+    A[Python Code] <--> B[Ollama Python Library]
+    B <--> C[Ollama]
+    C <--> D[LLM]
+```
+
 ```bash
 ollama pull llama3.2
 ```

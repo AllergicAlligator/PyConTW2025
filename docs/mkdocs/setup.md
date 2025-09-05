@@ -1,5 +1,5 @@
 ---
-title: set up
+title: SETUP
 ---
 
 # **SET UP**

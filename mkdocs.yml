@@ -2,22 +2,25 @@ site_name: MKDOCS
 
 nav:
   - index.md
-  - setup.md
-  - codeblocks.md
-  - icons.md
-  - admonitions.md
-  - content.md
-  - math.md
-  - diagrams.md
+  - MkDocs:
+    - mkdocs/index.md
+    - mkdocs/setup.md
+    - mkdocs/codeblocks.md
+    - mkdocs/icons.md
+    - mkdocs/admonitions.md
+    - mkdocs/content.md
+    - mkdocs/math.md
+    - mkdocs/diagrams.md
   - deploy.md
   - autodocs.md
 
 theme:
+  name: material
   features:
     - content.code.annotate
     - content.code.copy
     - content.code.select
-  name: material
+    - navigation.indexes
   font:
     text: Crimson Pro
   icon:

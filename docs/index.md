@@ -1,15 +1,29 @@
 ---
-title: home
+title: HOME
 ---
-# pycon tw 2025
+# PyCon TW 2025
 
-#### zero to auto docs: using python to generate and deploy static sites
+**Title: zero to auto docs: using python to generate and deploy static sites**
 
-speakers: Tiffany Gau & Daniel Gau
+**speakers: Tiffany Gau & Daniel Gau**
 
-### **table of contents**
-* mkdocs
-* material for mkdocs
-* deploy
-* using llm to _____
+## 1️⃣ MkDocs
 
+* Material for MkDocs
+* Code Blocks
+* Icons
+* Admonitions
+* Content Tabs
+* Math
+* Diagrams
+
+## 2️⃣ Deployment
+
+* mkdocs gh-deploy
+* github actions
+
+## 3️⃣ Auto Docs Generation
+
+* modifying mkdocs.yml
+* ollama
+* Auto Docs Generation
