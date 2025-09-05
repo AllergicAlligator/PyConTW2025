@@ -12,9 +12,46 @@
 * Material for MkDocs provides cool features out of box!
 * Material for MkDocs convert plain MkDocs websites to stylish doc websites1
 
+!!! Tip
+    Pay attention to **TWO** things:  
+    :material-numeric-1-circle: Configuration.  
+    :material-numeric-2-circle: Syntax 
+
+
 ### :material-numeric-1-circle: Code Blocks
 
 * [Code Blocks](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
+
+```py title="prime.py"
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```
+
+```py linenums="1"
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```
+
+```py linenums="1" hl_lines="2-4"
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```
+
 
 ### :material-numeric-2-circle: Icons
 
@@ -32,6 +69,20 @@
 
 ### :material-numeric-4-circle: Math
 
+* [Math](https://squidfunk.github.io/mkdocs-material/reference/math/)
+
+
+```
+\[
+\int_{0}^{\infty} \frac{x^{a-1}}{1+e^x} \, dx 
+= \left(1 - 2^{1-a}\right) \Gamma(a) \zeta(a), \quad \Re(a) > 0
+\]
+```
+
+\[
+\int_{0}^{\infty} \frac{x^{a-1}}{1+e^x} \, dx 
+= \left(1 - 2^{1-a}\right) \Gamma(a) \zeta(a), \quad \Re(a) > 0
+\]
 
 
 ### :material-numeric-5-circle: Diagrams

@@ -31,6 +31,7 @@ with open("mkdocs.yml", "w", encoding="utf-8") as f:
 ## 2️⃣ ollama
 
 * [https://ollama.com/](https://ollama.com/)
+* [Open LLM Models](https://ollama.com/search)
 * [https://github.com/ollama/ollama-python](https://github.com/ollama/ollama-python)
 
 ```mermaid
@@ -40,9 +41,13 @@ flowchart LR
     C <--> D[LLM]
 ```
 
+:material-numeric-1-circle: Ollama Server
+
 ```bash
 ollama pull llama3.2
 ```
+
+:material-numeric-2-circle: Ollama Python Library
 
 ```bash
 pip install ollama

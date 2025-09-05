@@ -48,7 +48,6 @@ INFO    -  Your documentation should shortly be available at:
 `.github/workflows/ci.yaml`
 
 ```yaml
-ci.yaml
 name: ci 
 on:
   push:
