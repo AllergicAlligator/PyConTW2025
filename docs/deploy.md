@@ -1,6 +1,6 @@
 # Deployment
 
-## **mkdocs gh-deploy**
+## 1️⃣ **mkdocs gh-deploy**
 
 ```bash
 mkdocs gh-deploy
@@ -42,7 +42,7 @@ INFO    -  Your documentation should shortly be available at:
 (myvenv) Tiffany@MacBookPro PyConTW2025 % 
 ```
 
-## **github actions**
+## 2️⃣ **github actions**
 
 
 `.github/workflows/ci.yaml`

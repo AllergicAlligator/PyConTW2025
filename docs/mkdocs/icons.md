@@ -34,3 +34,4 @@ Enable icons in your `mkdocs.yml` (most features are on by default):
 theme:
   icon:
     repo: fontawesome/brands/github
+```

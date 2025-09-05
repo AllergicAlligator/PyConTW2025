@@ -1,4 +1,3 @@
-ci.yaml
 name: ci 
 on:
   push:

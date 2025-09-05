@@ -2,15 +2,7 @@ site_name: MKDOCS
 
 nav:
   - index.md
-  - MkDocs:
-    - mkdocs/index.md
-    - mkdocs/setup.md
-    - mkdocs/codeblocks.md
-    - mkdocs/icons.md
-    - mkdocs/admonitions.md
-    - mkdocs/content.md
-    - mkdocs/math.md
-    - mkdocs/diagrams.md
+  - intro.md
   - deploy.md
   - autodocs.md
 
@@ -51,7 +43,13 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

@@ -1,6 +1,6 @@
 # AutoDocs
 
-## Modifying mkdocs.yml
+## 1️⃣ Modifying mkdocs.yml
 
 ``` python
 import yaml
@@ -28,7 +28,7 @@ with open("mkdocs.yml", "w", encoding="utf-8") as f:
     yaml.dump(config, f, sort_keys=False, allow_unicode=True, Dumper=MyDumper)
 ```
 
-## ollama
+## 2️⃣ ollama
 
 * [https://ollama.com/](https://ollama.com/)
 * [https://github.com/ollama/ollama-python](https://github.com/ollama/ollama-python)
@@ -63,7 +63,7 @@ print(response['message']['content'])
 print(response.message.content)
 ```
 
-## autodocs using LLM
+## 3️⃣ Autodocs using LLM
 
 ```python
 import os
