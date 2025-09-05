@@ -57,6 +57,8 @@ def is_prime(n):
 
 * [Icons, Emojis](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
 
+:material-robot: :material-robot-happy: :material-robot-angry:
+
 ### :material-numeric-3-circle: Admonitions
 
 * [Admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
