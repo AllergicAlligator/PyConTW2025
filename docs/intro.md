@@ -67,6 +67,9 @@ def is_prime(n):
 !!! tip
     Do this! Don't do that!
 
+??? FAQ
+    how are you doing?
+
 ### :material-numeric-4-circle: Math
 
 * [Math](https://squidfunk.github.io/mkdocs-material/reference/math/)
