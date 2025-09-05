@@ -1,0 +1,56 @@
+site_name: MKDOCS
+
+nav:
+  - index.md
+  - setup.md
+  - codeblocks.md
+  - icons.md
+  - admonitions.md
+  - content.md
+  - math.md
+  - diagrams.md
+  - deploy.md
+  - autodocs.md
+
+theme:
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+  name: material
+  font:
+    text: Crimson Pro
+  icon:
+    logo: material/robot-angry  
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+      primary: red
+      accent: orange
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+      primary: blue
+      accent: purple
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
