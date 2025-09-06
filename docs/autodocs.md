@@ -7,7 +7,7 @@ icon: material/lightbulb-auto-outline
 We will show how to:
 
 :material-numeric-1-circle: use python to modify mkdocs.yml.   
-:material-numeric-2-circle: get response from LLM. 
+:material-numeric-2-circle: get response from LLM.  
 :material-numeric-3-circle: put :material-numeric-1-circle: and :material-numeric-2-circle: together. 
 
 ## 1️⃣ Modifying mkdocs.yml
