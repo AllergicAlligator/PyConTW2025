@@ -1,4 +1,8 @@
-# Deployment
+---
+icon: material/cloud-check
+---
+
+# :material-cloud-check: Deployment
 
 ## 1️⃣ **mkdocs gh-deploy**
 

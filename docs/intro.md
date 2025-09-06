@@ -1,4 +1,8 @@
-# Intro to MkDocs
+---
+icon: material/content-paste
+---
+
+# :material-content-paste: Intro to MkDocs
 
 ## 1️⃣ What is [MkDocs](https://www.mkdocs.org/)?
 

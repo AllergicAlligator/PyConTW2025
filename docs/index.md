@@ -1,7 +1,8 @@
 ---
+icon: material/home
 title: HOME
 ---
-# PyCon TW 2025
+# :material-home: PyCon TW 2025
 
 **Title: zero to auto docs: using python to generate and deploy static sites**
 

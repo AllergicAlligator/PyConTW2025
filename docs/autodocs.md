@@ -1,4 +1,8 @@
-# AutoDocs
+---
+icon: material/lightbulb-auto-outline
+---
+
+# :material-lightbulb-auto-outline: AutoDocs
 
 ## 1️⃣ Modifying mkdocs.yml
 
@@ -70,7 +74,7 @@ print(response['message']['content'])
 print(response.message.content)
 ```
 
-```python title="Streaming Response" hl_lines="7 10-11"
+```python title="Streaming Response" hl_lines="6 9-10"
 from ollama import chat
 
 stream = chat(
