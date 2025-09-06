@@ -4,6 +4,12 @@ icon: material/lightbulb-auto-outline
 
 # :material-lightbulb-auto-outline: AutoDocs
 
+We will show how to:
+
+:material-numeric-1-circle: use python to modify mkdocs.yml.   
+:material-numeric-2-circle: get response from LLM. 
+:material-numeric-3-circle: put :material-numeric-1-circle: and :material-numeric-2-circle: together. 
+
 ## 1️⃣ Modifying mkdocs.yml
 
 ``` python
@@ -17,6 +23,8 @@ class MyDumper(yaml.Dumper):
 new_pages = []
 for i in range(5):
     new_pages.append(f"lesson{i}.md")
+
+# We have ["lesson0.md", "lesson1.md", "lesson2.md", "lesson3.md", "lesson4.md"] in new_pages now
 
 # Read mkdocs.yml
 with open("mkdocs.yml", "r", encoding="utf-8") as f:
