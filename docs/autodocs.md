@@ -43,6 +43,8 @@ flowchart LR
 
 :material-numeric-1-circle: Ollama Server
 
+To download a model, run the following command:
+
 ```bash
 ollama pull llama3.2
 ```
@@ -53,7 +55,7 @@ ollama pull llama3.2
 pip install ollama
 ```
 
-```python
+```python title="Regular Usage"
 from ollama import chat
 from ollama import ChatResponse
 
@@ -66,6 +68,19 @@ response: ChatResponse = chat(model='gemma3', messages=[
 print(response['message']['content'])
 # or access fields directly from the response object
 print(response.message.content)
+```
+
+```python title="Streaming Response" hl_lines="7 10-11"
+from ollama import chat
+
+stream = chat(
+    model='gemma3',
+    messages=[{'role': 'user', 'content': 'Why is the sky blue?'}],
+    stream=True,
+)
+
+for chunk in stream:
+  print(chunk['message']['content'], end='', flush=True)
 ```
 
 ## 3️⃣ Autodocs using LLM
@@ -83,10 +98,7 @@ class MyDumper(yaml.Dumper):
 # 
 MAIN_TOPIC = "Python Tutorial"
 TOPIC_NUMBER = 5
-# MODEL_NAME = "gemma3:1b"
-# MODEL_NAME = "llama3.2"
-# MODEL_NAME = "deepseek-r1:1.5b"
-MODEL_NAME = "phi3"
+MODEL_NAME = "llama3.2"
 
 prompt = f"""Please design {TOPIC_NUMBER} subtopics for the main topic "{MAIN_TOPIC}".  
 For each subtopic, write a complete tutorial in Markdown format (including title and sections).  
